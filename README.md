@@ -1,3 +1,21 @@
 # MiniMotor
 
-https://medium.com/@Plimsky/how-to-install-a-opengl-environment-on-ubuntu-e3918cf5ab6c
+Instalar primero las librerias necesarias:
+
+sudo apt-get install cmake libx11-dev xorg-dev libglu1-mesa-dev freeglut3-dev libglew1.5 libglew1.5-dev libglu1-mesa libglu1-mesa-dev libgl1-mesa-glx libgl1-mesa-dev
+
+sudo apt-get install freeglut3 freeglut3-dev
+
+Instalar CMake:
+
+Descargar de aca:
+https://cmake.org/files/v3.11/cmake-3.11.0.tar.gz
+
+despues descomprimir, ubicar la consola en esa carpeta y ejecutar:
+sudo ./bootstrap
+sudo make
+sudo make install
+
+para solucionar el error de falta GLFW/glfw3.h
+
+
