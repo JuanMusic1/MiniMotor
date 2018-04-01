@@ -21,7 +21,21 @@ sudo make install
 
 para solucionar el error de falta GLFW/glfw3.h
 
-sudo apt-get install libglfw-dev
+sudo apt-get install libglfw libglfw-dev
+
+sudo apt-get install libglfw3 libglfw3-dev
+
+Descargar siguiente archivo:
+
+https://codeload.github.com/glfw/glfw/zip/master
+
+Descomprimir, ubicar la consola en la carpeta y ejecutar las siguientes instrucciones
+
+sudo cmake -G "Unix Makefiles"
+
+sudo make
+
+sudo make install
 
 Librerria GLAD para usar las ventanas en OpenGL:
 
